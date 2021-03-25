@@ -1,5 +1,5 @@
 # setup working directory
-FROM maven AS build
+FROM maven:3.5.3 AS build
 RUN mkdir /app
 WORKDIR /app
 
